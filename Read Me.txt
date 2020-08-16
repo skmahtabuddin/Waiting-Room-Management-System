@@ -1,0 +1,17 @@
+the Program will contain the following methods:
+ 
+RegisterPatient(): This method assigns an Id (which is auto-generated) to a patient and register him/her to the system.
+ServePatient():This method calls a patient to provide hospital service to him/her.
+CancelAll():This method cancels all appointments of the patients so that the doctor can go to lunch.
+CanDoctorGoHome():This method returns true if no one is waiting, otherwise, returns false.
+ShowAllPatient():This method shows all ids of the waiting patients in SORTED order. 
+
+Methods were written using both circulararray & linkedlist based queue.
+
+Tester:
+Add Patient – print Success or Not
+Serve Patient – print Name of Patient being Served 
+Show All patient – print all patient in Lexicographical Order
+Can Doctor go Home? – Print yes or no
+Cancel all Appointment – print Success or Not
+
